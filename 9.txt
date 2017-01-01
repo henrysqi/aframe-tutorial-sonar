@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/0.4.0/aframe.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-assets>
+                <a-asset-item id="object" src="./models/aztec-temple.obj"></a-asset-item>
+                <a-asset-item id="material" src="./models/aztec-temple.mtl"></a-asset-item>
+            </a-assets>
+
+            <a-obj-model src="#object" mtl="#material"></a-obj-model>
+        </a-scene>
+    </body>
+</html>
